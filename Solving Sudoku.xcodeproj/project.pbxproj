@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		5E618435888B9D49F8540165 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Qmake";
+			shellPath = "/bin/sh";
+			shellScript = "make -C '/Users/craigpullar/Desktop/Solving Sudoku' -f 'Solving Sudoku.xcodeproj/qt_makeqmake.mak'";
+		};
+		CB305A33EADC932EBE84AD35 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Action.cpp";
+			name = "Action.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9D3CBA8DCAB57DC38E5168FC = {
+			fileRef = "CB305A33EADC932EBE84AD35";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		597D788D93190D58FE57C970 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/AStarNode.cpp";
+			name = "AStarNode.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		B919B1EC5AC12ED292532C26 = {
+			fileRef = "597D788D93190D58FE57C970";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		50AA2F8D25B1D64725F27257 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/AStarSearch.cpp";
+			name = "AStarSearch.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5794A5A907D569911AA0D8E5 = {
+			fileRef = "50AA2F8D25B1D64725F27257";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		76C533C0D1DE04649020825B = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/BruteForce.cpp";
+			name = "BruteForce.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		6E1B5E9663E8B4B1567495C4 = {
+			fileRef = "76C533C0D1DE04649020825B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		A366728B25248AF197EC4D10 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/ConstraintSolver.cpp";
+			name = "ConstraintSolver.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5CB9D3001C7D45F8132CF373 = {
+			fileRef = "A366728B25248AF197EC4D10";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		527F45791F218E74E0CC5809 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/GameState.cpp";
+			name = "GameState.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		AD4537D1A6FD7F9A7140ED19 = {
+			fileRef = "527F45791F218E74E0CC5809";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		F81C89C66B686ADDD6C693D6 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/GUI.cpp";
+			name = "GUI.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		641D7B8CEA084738CCBA2E87 = {
+			fileRef = "F81C89C66B686ADDD6C693D6";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		682A50D19E416195436708E4 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/main.cpp";
+			name = "main.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		A30272D128FD92700E6E21D0 = {
+			fileRef = "682A50D19E416195436708E4";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		31CC76CCC4119F7C4C6F7939 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/MainWindow.cpp";
+			name = "MainWindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E6362D48AB205D05F1F42F54 = {
+			fileRef = "31CC76CCC4119F7C4C6F7939";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		77AD5567603278385E3A6D31 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Point.cpp";
+			name = "Point.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E75B6E41C87594CE248C07D2 = {
+			fileRef = "77AD5567603278385E3A6D31";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B0249C235859748C730A82FE = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/RandomSearch.cpp";
+			name = "RandomSearch.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		9BB0585E6538CF605266AFB8 = {
+			fileRef = "B0249C235859748C730A82FE";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		89548F08538B55586B8EE69D = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/SudokuGameEngine.cpp";
+			name = "SudokuGameEngine.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		24D66F47AC0E877FA84FAFFF = {
+			fileRef = "89548F08538B55586B8EE69D";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		336A46D8FC24BBDDFAF18806 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/SudokuGenerator.cpp";
+			name = "SudokuGenerator.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		5BA3ECEC6FFA1AE1B8F42CAE = {
+			fileRef = "336A46D8FC24BBDDFAF18806";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		B44166AC7D105D208AD738FC = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Tester.cpp";
+			name = "Tester.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		C8E17ED99E05DC7D0E1FCD6B = {
+			fileRef = "B44166AC7D105D208AD738FC";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		5A094B6E03696B8AC04E705B = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/moc_MainWindow.cpp";
+			name = "moc_MainWindow.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		E813ED4BDAD016C5F8481251 = {
+			fileRef = "5A094B6E03696B8AC04E705B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		7914D0C077ADDD91EB9FA46B = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/moc_Tester.cpp";
+			name = "moc_Tester.cpp";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.cpp.cpp";
+		};
+		192BAD80BFDD34F03A9A7BB5 = {
+			fileRef = "7914D0C077ADDD91EB9FA46B";
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+					);
+			};
+		};
+		35CAAC51E245787CAE639267 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Action.h";
+			name = "Action.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		F8175605C878FF5A8758AEE8 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/AStarNode.h";
+			name = "AStarNode.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		0920B599540529F87D688898 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/AStarSearch.h";
+			name = "AStarSearch.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		3E0095103E077A2C4F935EC8 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/BruteForce.h";
+			name = "BruteForce.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		E5F5D1FBBF9C98E69FE11654 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/ConstraintSolver.h";
+			name = "ConstraintSolver.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		FAE53D1CEF2436855A376216 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/GameState.h";
+			name = "GameState.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		77F9559B3F1249A13D26C4BE = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/GUI.h";
+			name = "GUI.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		B0A2CC1112B650E46475854B = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/MainWindow.h";
+			name = "MainWindow.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		AD20C5D152B26370BA086BB3 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Point.h";
+			name = "Point.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		D0F355DA52CF047AA831C34A = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/RandomSearch.h";
+			name = "RandomSearch.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		8C6DC857045C8173956C104F = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/SudokuGameEngine.h";
+			name = "SudokuGameEngine.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		9CCED67D2D760217F66F4370 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/SudokuGenerator.h";
+			name = "SudokuGenerator.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		37ADD4CBD4F933718FA89623 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Tester.h";
+			name = "Tester.h";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "sourcecode.c.h";
+		};
+		285F04B860CFB80B6C7D28EC = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/Solving Sudoku.pro";
+			name = "Solving Sudoku.pro";
+			sourceTree = "<absolute>";
+			lastKnownFileType = "text";
+		};
+		AB745978DF0F41D1801ABDA6 = {
+			isa = PBXFileReference;
+			path = "/Users/craigpullar/Desktop/Solving Sudoku/.qmake.stash";
+			name = ".qmake.stash";
+			sourceTree = "<absolute>";
+		};
+		25B08E2869634E9BCBA333A2 = {
+			isa = PBXGroup;
+			children = (
+				"5A094B6E03696B8AC04E705B",
+				"7914D0C077ADDD91EB9FA46B");
+			name = "Generated Sources";
+			sourceTree = "<Group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 = {
+			isa = PBXGroup;
+			children = (
+				"CB305A33EADC932EBE84AD35",
+				"597D788D93190D58FE57C970",
+				"50AA2F8D25B1D64725F27257",
+				"76C533C0D1DE04649020825B",
+				"A366728B25248AF197EC4D10",
+				"527F45791F218E74E0CC5809",
+				"F81C89C66B686ADDD6C693D6",
+				"682A50D19E416195436708E4",
+				"31CC76CCC4119F7C4C6F7939",
+				"77AD5567603278385E3A6D31",
+				"B0249C235859748C730A82FE",
+				"89548F08538B55586B8EE69D",
+				"336A46D8FC24BBDDFAF18806",
+				"B44166AC7D105D208AD738FC",
+				"35CAAC51E245787CAE639267",
+				"F8175605C878FF5A8758AEE8",
+				"0920B599540529F87D688898",
+				"3E0095103E077A2C4F935EC8",
+				"E5F5D1FBBF9C98E69FE11654",
+				"FAE53D1CEF2436855A376216",
+				"77F9559B3F1249A13D26C4BE",
+				"B0A2CC1112B650E46475854B",
+				"AD20C5D152B26370BA086BB3",
+				"D0F355DA52CF047AA831C34A",
+				"8C6DC857045C8173956C104F",
+				"9CCED67D2D760217F66F4370",
+				"37ADD4CBD4F933718FA89623");
+			name = "Sources";
+			sourceTree = "<Group>";
+		};
+		74B182DB50CB5611B5C1C297 = {
+			isa = PBXGroup;
+			children = (
+				"285F04B860CFB80B6C7D28EC",
+				"AB745978DF0F41D1801ABDA6");
+			name = "Supporting Files";
+			sourceTree = "<Group>";
+		};
+		7EF0942E79C014DCEC8976BC = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXShellScriptBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Qt Preprocessors";
+			shellPath = "/bin/sh";
+			shellScript = "make -C '/Users/craigpullar/Desktop/Solving Sudoku' -f 'Solving Sudoku.xcodeproj/qt_preprocess.mak'";
+		};
+		F7E50F631C51CD5B5DC0BC43 = {
+			buildActionMask = 2147483647;
+			files = (
+				"9D3CBA8DCAB57DC38E5168FC",
+				"B919B1EC5AC12ED292532C26",
+				"5794A5A907D569911AA0D8E5",
+				"6E1B5E9663E8B4B1567495C4",
+				"5CB9D3001C7D45F8132CF373",
+				"AD4537D1A6FD7F9A7140ED19",
+				"641D7B8CEA084738CCBA2E87",
+				"A30272D128FD92700E6E21D0",
+				"E6362D48AB205D05F1F42F54",
+				"E75B6E41C87594CE248C07D2",
+				"9BB0585E6538CF605266AFB8",
+				"24D66F47AC0E877FA84FAFFF",
+				"5BA3ECEC6FFA1AE1B8F42CAE",
+				"C8E17ED99E05DC7D0E1FCD6B",
+				"E813ED4BDAD016C5F8481251",
+				"192BAD80BFDD34F03A9A7BB5");
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Compile Sources";
+		};
+		A8A91642445689BFE41019F2 = {
+			isa = PBXFileReference;
+			name = "QtWidgets.framework";
+			path = "../../Qt/5.4/clang_64/lib/QtWidgets.framework";
+			refType = 4;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E8AFBD0B19879523C141FA3D = {
+			fileRef = "A8A91642445689BFE41019F2";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		101802963F5557511D075663 = {
+			isa = PBXFileReference;
+			name = "QtGui.framework";
+			path = "../../Qt/5.4/clang_64/lib/QtGui.framework";
+			refType = 4;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		C7ED6A9B7931B19BAA0C2ADC = {
+			fileRef = "101802963F5557511D075663";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		1824FEA7A030DDF578520F65 = {
+			isa = PBXFileReference;
+			name = "QtCore.framework";
+			path = "../../Qt/5.4/clang_64/lib/QtCore.framework";
+			refType = 4;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		30C9CF3FC679F0536FFEF57F = {
+			fileRef = "1824FEA7A030DDF578520F65";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2B774D8E4178765CE52EAAF5 = {
+			isa = PBXFileReference;
+			name = "DiskArbitration.framework";
+			path = "/System/Library/Frameworks/DiskArbitration.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		A99B2AA0F9CBBDD12BA126A4 = {
+			fileRef = "2B774D8E4178765CE52EAAF5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		A1A67BEAA744704B29168D39 = {
+			isa = PBXFileReference;
+			name = "IOKit.framework";
+			path = "/System/Library/Frameworks/IOKit.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8D267F2E4776F0ECA2F49DC8 = {
+			fileRef = "A1A67BEAA744704B29168D39";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		D4B32C2222F82AC56BADEB21 = {
+			isa = PBXFileReference;
+			name = "OpenGL.framework";
+			path = "/System/Library/Frameworks/OpenGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		8771A8C96E9C391044035D99 = {
+			fileRef = "D4B32C2222F82AC56BADEB21";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D9815BDB5BD9F90D2BC05C5 = {
+			isa = PBXFileReference;
+			name = "AGL.framework";
+			path = "/System/Library/Frameworks/AGL.framework";
+			refType = 0;
+			sourceTree = "<absolute>";
+			lastKnownFileType = "wrapper.framework";
+		};
+		E45E51A644D5FC9F942ECE55 = {
+			fileRef = "8D9815BDB5BD9F90D2BC05C5";
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		AF39DD055C3EF8226FBE929D = {
+			children = (
+				"A8A91642445689BFE41019F2",
+				"101802963F5557511D075663",
+				"1824FEA7A030DDF578520F65",
+				"2B774D8E4178765CE52EAAF5",
+				"A1A67BEAA744704B29168D39",
+				"D4B32C2222F82AC56BADEB21",
+				"8D9815BDB5BD9F90D2BC05C5");
+			isa = PBXGroup;
+			name = "Frameworks";
+			sourceTree = "<Group>";
+		};
+		D1C883685E82D5676953459A = {
+			buildActionMask = 2147483647;
+			files = (
+				"E8AFBD0B19879523C141FA3D",
+				"C7ED6A9B7931B19BAA0C2ADC",
+				"30C9CF3FC679F0536FFEF57F",
+				"A99B2AA0F9CBBDD12BA126A4",
+				"8D267F2E4776F0ECA2F49DC8",
+				"8771A8C96E9C391044035D99",
+				"E45E51A644D5FC9F942ECE55");
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Link Binary With Libraries";
+		};
+		30414803F31797EB689AE508 = {
+			buildActionMask = 2147483647;
+			files = (
+				);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+			name = "Copy Bundle Resources";
+		};
+		A0986A3029B525E32332DD87 = {
+			isa = PBXFileReference;
+			includeInIndex = 0;
+			explicitFileType = "wrapper.application";
+			path = "Solving Sudoku.app";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FE0A091FDBFB3E9C31B7A1BD = {
+			children = (
+				"A0986A3029B525E32332DD87");
+			isa = PBXGroup;
+			name = "Products";
+			sourceTree = "<Group>";
+		};
+		E8C543AB96796ECAA2E65C57 = {
+			children = (
+				"2EB56BE3C2D93CDAB0C52E67",
+				"25B08E2869634E9BCBA333A2",
+				"74B182DB50CB5611B5C1C297",
+				"AF39DD055C3EF8226FBE929D",
+				"FE0A091FDBFB3E9C31B7A1BD");
+			isa = PBXGroup;
+			name = "Solving Sudoku";
+			sourceTree = "<Group>";
+		};
+		517572DDA72A3CCED0FDC9A7 = {
+			buildPhases = (
+				"5E618435888B9D49F8540165",
+				"7EF0942E79C014DCEC8976BC");
+			dependencies = (
+				);
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXAggregateTarget;
+			buildRules = (
+);
+			productName = "Qt Preprocess";
+			name = "Qt Preprocess";
+		};
+		AD95AA1368204B448965E8EA = {
+			isa = PBXTargetDependency;
+			target = "517572DDA72A3CCED0FDC9A7";
+		};
+		6B8EB2FC9DE14565F9F700E5 = {
+			buildPhases = (
+				"F7E50F631C51CD5B5DC0BC43",
+				"D1C883685E82D5676953459A",
+				"30414803F31797EB689AE508");
+			dependencies = (
+				"AD95AA1368204B448965E8EA");
+			productReference = "A0986A3029B525E32332DD87";
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59;
+			isa = PBXNativeTarget;
+			buildRules = (
+);
+			productType = "com.apple.product-type.application";
+			name = "Solving Sudoku";
+			productName = "Solving Sudoku";
+		};
+		3AA6C32AC930069E80220CF1 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "Solving Sudoku";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/craigpullar/Desktop/Solving Sudoku";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"../../Qt/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers",
+					"../../Qt/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers",
+					"../../Qt/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"../../Qt/5.4/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/craigpullar/Qt/5.4/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/craigpullar/Qt/5.4/clang_64/lib",
+					"/Users/craigpullar/Qt/5.4/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,/Users/craigpullar/Qt/5.4/clang_64/lib",
+						"-F/Users/craigpullar/Qt/5.4/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Debug";
+		};
+		77418F46922677BB04ED38DD = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "NO";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "YES";
+				GCC_OPTIMIZATION_LEVEL = "0";
+				PRODUCT_NAME = "Solving Sudoku";
+				QT_LIBRARY_SUFFIX = "_debug";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "Solving Sudoku";
+			};
+			name = "Debug";
+		};
+		339EE1B2CC4FC24589A0EA95 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "Solving Sudoku";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				CC = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang";
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				INFOPLIST_FILE = "Info.plist";
+				SYMROOT = "/Users/craigpullar/Desktop/Solving Sudoku";
+				DYLIB_CURRENT_VERSION = "1.0.0";
+				DYLIB_COMPATIBILITY_VERSION = "1.0";
+				MACOSX_DEPLOYMENT_TARGET = "10.7";
+				HEADER_SEARCH_PATHS = (
+					".",
+					".",
+					"../../Qt/5.4/clang_64/lib/QtWidgets.framework/Versions/5/Headers",
+					"../../Qt/5.4/clang_64/lib/QtGui.framework/Versions/5/Headers",
+					"../../Qt/5.4/clang_64/lib/QtCore.framework/Versions/5/Headers",
+					".",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Headers",
+					"/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/AGL.framework/Headers",
+					"../../Qt/5.4/clang_64/mkspecs/macx-clang");
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/craigpullar/Qt/5.4/clang_64/lib",
+					"/System/Library/Frameworks/");
+				FRAMEWORK_SEARCH_PATHS = (
+					"/Users/craigpullar/Qt/5.4/clang_64/lib",
+					"/Users/craigpullar/Qt/5.4/clang_64/lib");
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-W",
+					"-fPIE",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB");
+				OTHER_LDFLAGS = (
+						"-headerpad_max_install_names",
+						"-Wl,-rpath,/Users/craigpullar/Qt/5.4/clang_64/lib",
+						"-F/Users/craigpullar/Qt/5.4/clang_64/lib");
+				ARCHS = "x86_64";
+			};
+			name = "Release";
+		};
+		6666AA5E688052234F6758D8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = "YES";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = "NO";
+				PRODUCT_NAME = "Solving Sudoku";
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = "macosx";
+				PRODUCT_NAME = "Solving Sudoku";
+			};
+			name = "Release";
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"3AA6C32AC930069E80220CF1",
+				"339EE1B2CC4FC24589A0EA95");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6CC3B5D2136C7CD6A5CF5A59 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"77418F46922677BB04ED38DD",
+				"6666AA5E688052234F6758D8");
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		6DB9C3763D02B1415CD9D565 = {
+			hasScannedForEncodings = 1;
+			compatibilityVersion = "Xcode 3.2";
+			isa = PBXProject;
+			mainGroup = "E8C543AB96796ECAA2E65C57";
+			productRefGroup = "FE0A091FDBFB3E9C31B7A1BD";
+			buildConfigurationList = "DAC4C1AA5EDEA1C85E9CA5E6";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"6B8EB2FC9DE14565F9F700E5",
+				"517572DDA72A3CCED0FDC9A7");
+		};
+	};
+	rootObject = "6DB9C3763D02B1415CD9D565";
+}

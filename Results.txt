@@ -1,0 +1,48 @@
+BruteForce {
+	WithoutConstraint {
+		easy: 100%, 3.01e-05s
+		average: 100%, 4.456e-05s
+		hard: 100%, 6.547e-05s
+		insane: 100%, 0.00155611s
+		impossible: 100%, 0.0051022s
+	}
+	WithConstraint {
+		easy:100%, 5.988e-05s
+		average: 91%, 0.00013278s
+		hard: 52%, 0.00017874s
+		insane: 87%, 0.00203902s
+		impossible: 100%, 0.00841852s
+	}
+}
+AStar Search {
+	WithoutConstraint {
+		easy: 99%, 0.00086664s
+		average: 97%, 0.00236307s
+		hard: 89%, 0.225843s
+		insane: 62%, 0.771866s
+		impossible:
+	}
+	WithConstraint {
+		easy: 100%, 5.516e-05s
+		average: 92%, 0.0212649s
+		hard: 75%, 0.0834358s
+		insane: 0%
+		impossible:
+	}
+}
+Random Search {
+	WithoutConstraint {
+		easy: 94%, 0.165981s
+		average: 
+		hard: 
+		insane:
+		impossible:
+	}
+	WithConstraint {
+		easy: 100%, 0.00073705s
+		average: 97%, 0.0823296s
+		hard: 
+		insane:
+		impossible:
+	}
+}

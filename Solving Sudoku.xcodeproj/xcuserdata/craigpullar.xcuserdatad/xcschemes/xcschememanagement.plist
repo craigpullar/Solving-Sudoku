@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Qt Preprocess.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Solving Sudoku.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>517572DDA72A3CCED0FDC9A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53B12C1E8BFDB2D0BD9C73B5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61AD6861A3513EE907F8987B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B8EB2FC9DE14565F9F700E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
